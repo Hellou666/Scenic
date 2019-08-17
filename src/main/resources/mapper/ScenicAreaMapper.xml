@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.com.qianfeng.scenic.dao.ScenicAreaMapper">
+
+    <!--获取所有景区的信息-->
+    <select id="getAllScenicArea" resultType="com.com.qianfeng.scenic.pojo.ScenicArea">
+        select * from scenic_area
+    </select>
+
+
+</mapper>
